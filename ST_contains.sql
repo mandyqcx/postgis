@@ -26,12 +26,6 @@ where poi_name='汾江路路测线路';
 
 
 
-select * from
-
-
-
-
-
 --因为数据量很少，不超过一千，所有可以创建系统临时表，不需要定义字段的数据类型
 CREATE TEMP TABLE tmp_poi_gps_rectangle1 AS
 select
